@@ -16,7 +16,11 @@ function Hero() {
         </p>
         <Button className={styles.button}>Get Started</Button>
       </Container>
-      <img src="./assets/wave.svg" alt="svg wave background" />
+      <img
+        className={styles.background}
+        src="./assets/wave.svg"
+        alt="svg wave background"
+      />
     </section>
   );
 }
