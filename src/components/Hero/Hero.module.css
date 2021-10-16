@@ -1,0 +1,27 @@
+.hero {
+  margin-top: 100px;
+  position: relative;
+}
+.title {
+  width: 506px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 60px;
+  margin-bottom: 25px;
+}
+.subTitle {
+  width: 497px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 25px;
+}
+.button {
+  width: 167px;
+}
+.background {
+  position: absolute;
+  overflow: hidden;
+}

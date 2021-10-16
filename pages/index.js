@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "../src/components/Header";
+import Hero from "../src/components/Hero";
 
 export default function Home() {
   return (
@@ -13,7 +14,10 @@ export default function Home() {
       {/* Header */}
       <Header />
 
-      <main>{/* Main Content */}</main>
+      <main>
+        {/* Main Content */}
+        <Hero />
+      </main>
     </div>
   );
 }
